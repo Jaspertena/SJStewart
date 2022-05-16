@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: rgb(37, 3, 45);
+}
+
+.Navbar h1 {
+  margin-left: 0;
+  color: rgba(215, 225, 239);
+  background-color: rgb(37, 3, 45);
+  padding: 0 0 0 7rem;
+  font-size: em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Navbar nav ul a {
+  margin: 0 2rem;
+  color:rgb(215, 225, 239);
+  margin-bottom: 2;
+  font-size: 2rem;
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Navbar nav ul a:hover{
+  color: rgb(215, 228, 228);
+  decoration: underline;
+}
+
+#listdetails  {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(37, 3, 45);
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  background-image: url(../images/Beachview.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 40vh;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  color: rgb(65, 37, 65);
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  background-color: antiquewhite;
+}
+
+.details ul {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  font-size: 4rem;
+  background-color: rgb(37, 3, 45);
+  margin: 1em;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+.details p {
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+  text-align: left;
+  margin-left: 7em;
+  /* font-style: 4rem; */
+  font-size: 2.7em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.details img {
+  height: 500px;
+  width:  350px;
+  size: 100%;
+  text-align: right;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  flex-direction: row;
+  
+}
+
+footer div a {
+  position: relative;
+  padding: 0 4em 0 0;
+  Font-size: 2.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+  text-decoration: none;
+  color: rgb(29, 73, 112);
+}
+
+footer div a:hover {
+  color:aqua;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  flex-wrap: wrap;
+}
