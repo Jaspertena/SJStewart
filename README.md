@@ -6,7 +6,8 @@
 
 
 
-<h3>This is the 1st draft of my portfolio.
+<h3> I am excited about my new journey from Event Planner/Personal Concierge to Full Stack Web Devoloper.   
+  This is just a sample of the start of my journey. 
 
 <br>
 
